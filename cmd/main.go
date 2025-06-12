@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/gin-gonic/gin"
 	"golang-clinic-app/config"
@@ -18,8 +19,13 @@ func main() {
 	// Register routes
 	routes.RegisterRoutes(r)
 
+	// Get port from environment (Render sets this)
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080" // fallback for local dev
+	}
+
 	// Start the server
-	port := ":8080"
-	fmt.Println("Server running at http://localhost" + port)
-	r.Run(port)
+	fmt.Println("Server running at http://localhost:" + port)
+	r.Run(":" + port)
 }
