@@ -1,7 +1,7 @@
 
 ---
 
-```markdown
+
 # 🏥 Golang Clinic Management System with JWT Authentication
 
 A **role-based web backend** built using **Golang**, **Gin**, **PostgreSQL**, and **JWT Auth**, allowing **Receptionists** and **Doctors** to securely manage patient records via RESTful APIs. ✨
@@ -22,7 +22,6 @@ A **role-based web backend** built using **Golang**, **Gin**, **PostgreSQL**, an
 | 🚀 Ready for Deployment | Modular structure, scalable for production |
 
 
----
 
 ## 📬 API Documentation (Postman)
 
