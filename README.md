@@ -6,8 +6,6 @@
 
 A **role-based web backend** built using **Golang**, **Gin**, **PostgreSQL**, and **JWT Auth**, allowing **Receptionists** and **Doctors** to securely manage patient records via RESTful APIs. ✨
 
-> ✅ Designed to be clean, secure, scalable, and *recruiter-impressive*.
-
 ---
 
 ## 📌 Key Features
