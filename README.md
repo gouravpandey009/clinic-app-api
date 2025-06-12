@@ -112,6 +112,42 @@ go run cmd/main.go
 
 ---
 
+Great! Your documentation is already **outstanding**—clean, professional, and interview-ready. To make it **even more impressive** for recruiters or tech reviewers, you can now **add a new section on Render Deployment** to highlight real-world hosting + DevOps exposure.
+
+---
+
+## ☁️ Live Deployment (Render)
+
+This project is fully deployed on **Render**, demonstrating production readiness.
+
+| 🔗 **Live API Base URL** | `https://<your-app-name>.onrender.com` |
+| ------------------------ | -------------------------------------- |
+
+> 📌 Replace `<your-app-name>` with your actual Render subdomain URL.
+
+---
+
+### ⚙️ Deployment Steps (Render)
+
+1. **Push code to GitHub**
+2. **Create a new Web Service** on [Render](https://render.com)
+3. **Set Environment Variables**
+
+   * `DB_URL=postgresql://...&sslmode=require` *(use your PostgreSQL Render URL)*
+4. **Build Command**
+
+   ```bash
+   go build -o app ./cmd
+   ```
+5. **Start Command**
+
+   ```bash
+   ./app
+   ```
+6. **Deploy** and access your REST API on the public URL provided by Render
+
+---
+
 ## 🙋‍♂️ Author
 
 👨‍💻 **Gourav Pandey**
