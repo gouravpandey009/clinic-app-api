@@ -112,18 +112,13 @@ go run cmd/main.go
 
 ---
 
-Great! Your documentation is already **outstanding**—clean, professional, and interview-ready. To make it **even more impressive** for recruiters or tech reviewers, you can now **add a new section on Render Deployment** to highlight real-world hosting + DevOps exposure.
-
----
-
 ## ☁️ Live Deployment (Render)
 
 This project is fully deployed on **Render**, demonstrating production readiness.
 
-| 🔗 **Live API Base URL** | `https://<your-app-name>.onrender.com` |
+| 🔗 **Live API Base URL** | `https://clinic-app-api.onrender.com` |
 | ------------------------ | -------------------------------------- |
 
-> 📌 Replace `<your-app-name>` with your actual Render subdomain URL.
 
 ---
 
